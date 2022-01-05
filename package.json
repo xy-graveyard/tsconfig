@@ -9,9 +9,6 @@
     "email": "support@xylabs.com",
     "url": "https://github.com/xylabs/tsconfig/issues"
   },
-  "dependencies": {
-    "tslib": "^2.3.1"
-  },
   "description": "Typescript Base Config used throughout XY Labs TypeScript/JavaScript libraries and react projects",
   "devDependencies": {
     "@xylabs/eslint-config": "^2.1.9",
@@ -32,7 +29,8 @@
   "name": "@xylabs/tsconfig",
   "peerDependencies": {
     "eslint": "^8",
-    "prettier": "^2"
+    "prettier": "^2",
+    "tslib": "^2.3.1"
   },
   "private": false,
   "publishConfig": {
