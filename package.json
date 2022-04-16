@@ -38,12 +38,12 @@
     "url": "https://github.com/xylabs/tsconfig.git"
   },
   "scripts": {
-    "deploy": "yarn version --patch && yarn publish ./",
+    "deploy": "yarn version patch && yarn npm publish",
     "fix": "eslint . --fix",
     "lint": "eslint .",
     "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "1.0.12",
+  "version": "1.0.13",
   "packageManager": "yarn@3.2.0"
 }
