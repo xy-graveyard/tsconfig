@@ -30,7 +30,6 @@
   "dependencies": {
     "tslib": "^2.3.1"
   },
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -45,5 +44,6 @@
     "reinstall": "rm -r -f ./node_modules && rm -f ./yarn.lock && rm -f ./yarn-error.log && yarn install"
   },
   "sideEffects": false,
-  "version": "1.0.12"
+  "version": "1.0.12",
+  "packageManager": "yarn@3.2.0"
 }
