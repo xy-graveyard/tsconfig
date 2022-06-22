@@ -4,7 +4,9 @@
 
 [![npm-badge][]][npm-link]
 
-> The Typescript (tsconfig.json) base configurations that are used across XY Labs Repos, including @xylabs, @xyo-network, and a few other scopes.
+> The Typescript (tsconfig.json) base configurations that are used
+> across XY Labs Repos,
+> including @xylabs, @xyo-network, and a few other scopes.
 
 ## Table of Contents
 
